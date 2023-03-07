@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<title>Curriculum Vitae</title>
+	<link rel="stylesheet" type="text/css" href="css/proyectoFinal.css">
+</head>
+<body>
+	<!--menu encabezado-->
+	<div class="contenedor-header">
+		<header>
+			<div class="logo">
+				<a href="#">Curriculum</a>
+			</div>
+			<nav id="nav">
+				<ul>
+					<li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+					<li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+					<li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+					<li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>
+					<li><a href="#portafolio" onclick="seleccionar()">PORTAFOLIO</a></li>
+					<li><a href="#contacto" onclick="seleccionar()">CONTACTO</a></li>
+				</ul>
+			</nav>
+			<div class="nav-responsive" onclick="mostrarOcultarMenu()">
+				<i class="fa-solid fa-bars"></i>
+			</div>
+		</header>
+	</div>
+<!--seccion de inicio-->
+<section id="inicio" class="inicio">
+	<div class="contenido-banner">
+		<div class="contenedor.img">
+			<img src="img/imagenfoto.jpg" alt="IMAGEN NO CARGADA">
+		</div>
+		<h1>MIGUEL EZEQUIEL DAVALOS</h1>
+		<h2>ESTUDIANTE DE PROGRAMACION</h2>
+		<div class="redes">
+			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href="#"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#"><i class="fa-brands fa-instagram"></i></a>
+
+		</div>
+	</div>
+</section>
+<!-- seccion sobre mi-->
+<section id="sobremi" class="sobremi">
+	<div class="contenido-seccion">
+		<h2>Sobre mi</h2>
+		<p><span>Hola, Soy Ezequiel Davalos</span> Desarrollador de software con experiencia en aplicaciones web. Tras más de 7 años trabajando en empresas de tecnología, no solo tengo conocimientos en C, C++, Java, Python, JavaScript, Visual Basic, Ruby, sino que también he logrado reducir el número de errores en los reportes semanales de mi actual puesto en un 15%. Deseo formar parte de TechSolutions para generar proyectos funcionales que superen las expectativas de los clientes de la empresa.</p>
+
+		<div class="fila">
+			<!--datos personales-->
+			<div class="col">
+				<h3>datos personales</h3>
+				<ul>
+					<li>
+						<strong>cumpleaños</strong>
+						31-01-1993
+					</li>
+					<li>
+						<strong>telefono</strong>
+						354360843
+					</li>
+					<li>
+						<strong>email</strong>
+						eze_312@hotmail.com
+					</li>
+					<li>
+						<strong>direccion</strong>
+						5 de octubre 301,unquillo cordoba
+					</li>
+					<li>
+						<strong>cargo</strong>
+						<span>jefe de cocina</span>
+					</li>
+				</ul>
+				</div>
+				
+			<!-- intereses-->
+			<div class="fila">
+			<div class="col">
+				<h3>intereses</h3>
+				<div class="contenedordeintereses">
+					<div class="interes">
+					<i class="fa-solid fa-gamepad"></i>
+					<span>juegos de pc</span>
+				</div>				
+				<div class="interes">
+					<i class="fa-solid fa-headphones"></i>
+					<span>musica</span>
+				</div>				
+					<div class="interes">
+					<i class="fa-solid fa-plane"></i>
+					<span>viajar</span>
+				</div>				
+					<div class="interes">
+					<i class="fa-brands fa-android"></i>
+					<span>android</span>
+				</div>				
+					<div class="interes">
+					<i class="fa-duotone fa-futbol"></i>
+					<span>deporte</span>
+				</div>
+					<div class="interes">
+					<i class="fa-solid fa-guitar"></i>
+					<span>guitarra</span>
+				</div>
+					<div class="interes">
+					<i class="fa-solid fa-motorcycle"></i>
+					<span>moto</span>
+				</div>
+			</div>	
+			</div>
+			</div>
+		</div>
+	<button>
+		descargar cv <i class="fa-solid fa-download"></i>
+		<span class="overlay"></span>
+	</button>	
+</section>
+<!--seccion de skills-->
+<section class="skills" id="skills">
+	<div class="contenido-skills">
+		<h2>skills</h2>
+		<div class="fila">
+			<!-- technical skills-->
+			<div class="col">
+				<h3>technical</h3>
+				<div class="skills">
+					<span>javascript</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>75%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<span>html & css</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>89%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<span>photoshop</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>95%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<span>wordpress</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>80%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<span>drupa</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>70%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!--presional skills-->
+			<div class="col">
+				<h3>profesional technical</h3>
+				<div class="skills">
+					<span>comunicacion</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>85%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<span>trabajo en equipo</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>90%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<span>creatividad</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>80%</span>
+						</div>
+					</div>
+				</div>
+				<div class="skills">
+					<span>dedicacion</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>90%</span>
+						</div>
+					</div>
+				</div><div class="skills">
+					<span>proyectos</span>
+					<div class="barra-skills">
+						<div class="progreso">
+							<span>70%</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+	<!-- seccion curriculum-->
+	<section id="curriculum" class="curriculum">
+	<div class="contenido-seccion">
+		<h2>curriculum</h2>
+		<div class="fila">
+			<div class="col izquierda">
+				<h3>educacion</h3>
+				<div class="item izq">
+					<h4>arte y multimedia</h4>
+					<span class="casa">universidad de Cordoba</span>
+					<span class="fecha">2010 - 2022</span>
+					<p>mi trayecto en la universidad de cordoba fue bastante educativa tanto fomrmal como socialmente se puede apreciar el nivel cultural tanto como en politica es la universidad mas valorada en la argentida por su nivel de recibimiento y las facilidad de manejarse</p>
+					<div class="conectori">
+						<div class="circuloi"></div>
+					</div>
+				</div>
+				<div class="item izq">
+					<h4>arte y multimedia</h4>
+					<span class="casa">universidad de Cordoba</span>
+					<span class="fecha">2010 - 2022</span>
+					<p>mi trayecto en la universidad de cordoba fue bastante educativa tanto fomrmal como socialmente se puede apreciar el nivel cultural tanto como en politica es la universidad mas valorada en la argentida por su nivel de recibimiento y las facilidad de manejarse</p>
+					<div class="conectori">
+						<div class="circuloi"></div>
+					</div>
+				</div>
+				<div class="item izq">
+					<h4>arte y multimedia</h4>
+					<span class="casa">universidad de Cordoba</span>
+					<span class="fecha">2010 - 2022</span>
+					<p>mi trayecto en la universidad de cordoba fue bastante educativa tanto fomrmal como socialmente se puede apreciar el nivel cultural tanto como en politica es la universidad mas valorada en la argentida por su nivel de recibimiento y las facilidad de manejarse</p>
+					<div class="conectori">
+						<div class="circuloi"></div>
+					</div>
+				</div>
+			</div>
+			<div class="col derecho">
+				<h3>experiencia</h3>
+				<div class="item der">
+					<h4>fronted</h4>
+					<span class="casa">nombre de la empresa</span>
+					<span class="fecha">2022 - 2023</span>
+					<p>mi trayecto en la universidad de cordoba fue bastante educativa tanto fomrmal como socialmente se puede apreciar el nivel cultural tanto como en politica es la universidad mas valorada en la argentida por su nivel de recibimiento y las facilidad de manejarse</p>
+					<div class="conectord">
+						<div class="circulod"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+	<!-- seccion portafolio-->
+	<section id="portafolio" class="portafolio">
+		<div class="contenido-seccion">
+			<h2>portafolio</h2>
+			<div class="galeria">
+				<div class="proyecto">
+					<img src="img/p1.jpg" alt="imagen no cargada">
+					<div class="overlay">
+						<h3>diseño creativo</h3>
+						<p>fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/p2.jpg" alt="imagen no cargada">
+					<div class="overlay">
+						<h3>diseño creativo</h3>
+						<p>fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/p3.jpg" alt="imagen no cargada">
+					<div class="overlay">
+						<h3>diseño creativo</h3>
+						<p>fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/p4.jpg" alt="imagen no cargada">
+					<div class="overlay">
+						<h3>diseño creativo</h3>
+						<p>fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/p5.jpg" alt="imagen no cargada">
+					<div class="overlay">
+						<h3>diseño creativo</h3>
+						<p>fotografia</p>
+					</div>
+				</div>
+				<div class="proyecto">
+					<img src="img/p6.jpg" alt="imagen no cargada">
+					<div class="overlay">
+						<h3>diseño creativo</h3>
+						<p>fotografia</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--- seccion de contacto-->
+	<section id="contacto" class="contacto">
+		<div class="contenido-seccion">
+			<h2>contacto</h2>
+			<div class="fila">
+				<!-- formulario----->
+				<div class="col">
+					<input type="text" placeholder="tu nombre">
+					<input type="text" placeholder="numero de telefono">
+					<input type="text" placeholder="direccion de correo">
+					<input type="text" placeholder="asunto">
+					<textarea name="" id="" cols="30" rows="10" placeholder="mensaje"></textarea>
+					<button>
+						enviar mensaje<i class="fa-sharp fa-solid fa-paper-plane"></i>
+						<span class="overlay"></span>
+					</button>
+				</div>
+				<!----mapa-->
+				<div class="col">
+					<img src="img/map.jpg" alt="imagen no cargada">
+					<div class="info">
+						<ul>
+							<li>
+								<i class="fa-solid fa-location-dot"></i>
+								5 de octubre 301, unquillo cordoba
+							</li>
+						<li>
+								<i class="fa-solid fa-mobile"></i>
+								Llamanos:(3543) 608423
+							</li>
+							<li>
+								<i class="fa-solid fa-envelope"></i>
+								Email: eze_312@hotmail.com
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--- footer----------------->
+	<footer>
+		<a href="#inicio" class="arriba">
+			<i class="fa-solid fa-angles-up"></i>
+		</a>
+		<div class="redes">
+			<a href="#"><i class="fa-brands fa-facebook"></i></a>
+			<a href="#"><i class="fa-brands fa-twitter"></i></a>
+			<a href="#"><i class="fa-brands fa-instagram"></i></a>
+		</div>
+	</footer>
+	<script src="java/script.js"></script>
+</body>
+</html>
